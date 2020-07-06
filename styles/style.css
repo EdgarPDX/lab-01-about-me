@@ -23,11 +23,13 @@ body {
 }
 
 h1 {
+    display: grid;
     font-size: 4rem;
-    justify-content: center;
+    justify-self: center;
+    grid-template-rows: ;
     
 }
-h2 {
+.header {
     font-size: 2rem;
     font-weight: bold;
     
@@ -49,5 +51,17 @@ body {
 }
 
 .intro{
+    font-size: 1.5rem;
+}
+.hobbies{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.list{
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.goals{
     font-size: 1.5rem;
 }
