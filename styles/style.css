@@ -24,55 +24,59 @@ body {
 
 h1 {
     display: flex;
-    font-size: 4rem;
+    font-size: 5rem;
     justify-content: center;
    
     
 }
+main{
+    
+    
+    
+}
 .profile-pic {
+    display: grid;
     justify-content: center;
 }
 .header {
-    font-size: 2rem;
+    display: flex;
+    font-size: 3rem;
     font-weight: bold;
-    align-items: center;
-}
-
-
-
-img {
-    width: 50%;
-    height:50%;
-  
-}
-
-img{
     justify-content: center;
 }
 
 .intro{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding-left: 10px;
 }
 .hobbies{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
+    padding-left: 10px;
 }
 .list{
-    font-size: 1.15rem;
+    display: grid;
+    font-size: 1.5rem;
     font-weight: 600;
-}
+    justify-content: center;
+
+  }
 
 .goals{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding-left: 10px;
 }
 
-.h5 {
+.button{
+    display: grid;
+    width: 200px;
     font-size: 1.5rem;
     font-weight: bold;
-    justify-content: center;
+    grid-template-columns:2                     fr ;
+    
 }
 
 .results-section{
-    justify-content: center;
+    align-items: center;
     font-size: 2rem
 }
