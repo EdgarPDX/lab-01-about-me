@@ -23,21 +23,22 @@ body {
 }
 
 h1 {
-    display: grid;
+    display: flex;
     font-size: 4rem;
-    justify-self: center;
-    grid-template-rows: ;
+    justify-content: center;
+   
     
+}
+.profile-pic {
+    justify-content: center;
 }
 .header {
     font-size: 2rem;
     font-weight: bold;
-    
+    align-items: center;
 }
 
-header {
-    background-color: var(--color2);
-}
+
 
 img {
     width: 50%;
@@ -45,9 +46,8 @@ img {
   
 }
 
-body {
-    display: grid;
-      
+img{
+    justify-content: center;
 }
 
 .intro{
@@ -64,4 +64,15 @@ body {
 
 .goals{
     font-size: 1.5rem;
+}
+
+.h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.results-section{
+    justify-content: center;
+    font-size: 2rem
 }
