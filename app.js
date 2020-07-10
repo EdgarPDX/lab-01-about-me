@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import {countsAsAYes} from './function.js';
+import { countsAsAYes } from './function.js';
 
 //Get elements
 const quizButton = document.getElementById('quiz-button');
@@ -40,7 +40,7 @@ quizButton.addEventListener ('click', () =>{
     if (countsAsAYes(graduated)) {
         score ++;
     }
-    confirm(name + ', test is now complete. Check your score at bottom of page')
+    confirm(name + ', test is now complete. Check your score at bottom of page');
 
     result.textContent = name + ' YOU SCORED ' + score + '!';
 
